@@ -28,6 +28,8 @@ php artisan vendor:publish --provider="ByteFlick\LaravelDomainLocalization\Larav
 
 This is the contents of the published config file:
 
+Note: If you set the mode to `strict` then if the middleware cannot find a locale it aborts the request.
+
 ```php
 return [
     'mode' => 'loose', // strict or loose
