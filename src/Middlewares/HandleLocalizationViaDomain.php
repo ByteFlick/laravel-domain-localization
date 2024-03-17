@@ -17,7 +17,7 @@ class HandleLocalizationViaDomain
 
         $key = array_search($domain, array_column($locales, 'domain'));
 
-        if ($mode === 'strict' && ! $key) {
+        if ($mode === 'strict' && $key === false) {
             abort(400, 'This domain is not supported by the locale package.');
         } else {
             $locale = array_keys($locales)[$key];
