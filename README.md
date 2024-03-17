@@ -17,7 +17,7 @@ Experience streamlined localization management and enhanced user experiences wit
 You can install the package via composer:
 
 ```bash
-composer require byteflick/laravel-strict-domain
+composer require byteflick/laravel-domain-localization
 ```
 
 You can publish the config file with:
