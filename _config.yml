@@ -1,2 +1,4 @@
-title: Domain-Based Localization
-remote_theme: just-the-docs/just-the-docs
+title: Laravel Strict Domain Checking for Laravel
+theme: jekyll-theme-minimal
+description: A Laravel package facilitating efficient locale determination based on domain names, simplifying multi-language website development.
+show_downloads: true
